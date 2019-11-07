@@ -1,13 +1,1 @@
-public class Garden {
-
-	private Counter count;
-
-	private Counter counter;
-
-	private Turnstile turnstile;
-
-	public void main() {
-
-	}
-
-}
+public class Garden {    public Counter count;    private Turnstile turnstile;    public static void main(String[] args) {        System.out.println("Garden");		Counter count1 = new Counter();		Turnstile turnstile1 = new Turnstile();		count1.writeValue();		turnstile1.run();	}}

@@ -7,7 +7,7 @@ public class Counter {
 	}
 
 	public void writeValue() {
-
+		System.out.println("Counter");
 	}
 
 }
