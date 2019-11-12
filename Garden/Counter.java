@@ -1,16 +1,13 @@
 public class Counter {
 
-	private int value;
+	private int value = 0;
 
-	public int readValue(int num) {
-		this.value = num;
-		writeValue();
+	public int readValue() {
 		return this.value;
 	}
 
 	public void writeValue() {
-		System.out.println("Counter");
-
+        value = value + 1;
+        System.out.println(this.value);
 	}
-
 }
